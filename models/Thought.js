@@ -1,5 +1,3 @@
-const mongoose = require('mongoose');
-
 // Define the schema for the Thought model
 const thoughtSchema = new mongoose.Schema({
   // Text of the thought, required and with a maximum length of 280 characters

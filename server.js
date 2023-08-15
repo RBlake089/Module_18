@@ -1,5 +1,4 @@
 const express = require('express'); // Import the Express framework
-const mongoose = require('mongoose'); // Import the Mongoose library for database connection
 const app = express(); // Create an instance of Express
 const PORT = process.env.PORT || 3000; // Define the port for the server to listen on
 

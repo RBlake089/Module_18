@@ -1,5 +1,3 @@
-const mongoose = require('mongoose');
-
 // Define the schema for the Reaction model
 const reactionSchema = new mongoose.Schema({
   // The body of the reaction, required and with a maximum length of 280 characters
